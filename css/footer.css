@@ -1,0 +1,60 @@
+/* footer */
+
+footer {
+  width: 100%;
+  height: 55vh;
+  /* background-color: #111; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.finally {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.together {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.together > p {
+  margin-top: 150px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: regular;
+}
+
+.upper-text {
+  margin-bottom: 25px;
+}
+
+.lower-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* 오른쪽 정렬 */
+  padding-right: 50px;
+  gap: 15px;
+}
+
+.icon {
+  display: flex;
+  gap: 20px;
+}
+
+.icon > a {
+  font-size: 16px;
+  gap: 15px;
+}
+
+.copyright {
+  font-size: 12px;
+}
