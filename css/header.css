@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+
 /* header */
 
 header {
@@ -7,29 +9,78 @@ header {
   /* background-color: aqua; */
 }
 
-.logo {
-  display: flex;
-  position: relative;
-  width: 50%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.paragraph span {
+  display: block;
+  opacity: 0;
+}
+.reveal {
+  display: block;
+  opacity: 0;
+  animation: reveal 0.8s ease-out forwards;
 }
 
-.logo > img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.delay0 {
+  animation-delay: 0.6s;
+}
+
+.delay1 {
+  animation-delay: 0.6s;
+}
+
+.delay2 {
+  animation-delay: 0.6s;
+}
+
+/* .delay0 {
+  animation-delay: 0s;
+}
+
+.delay1 {
+  animation-delay: 0.3s;
+}
+
+.delay2 {
+  animation-delay: 0.6s;
+} */
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  transform: translate(50%, 65%);
-  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  font-family: "Caveat", cursive;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: opacity 0.3s ease;
 }
 
-/* .logo:hover {
+.delay1 {
+  padding-left: 30px;
+  display: flex;
+  color: #00b436;
+}
+
+.logo:hover {
   opacity: 0.9;
-} */
+}
 
 nav {
   position: relative;
