@@ -13,13 +13,15 @@
 /* 모달 콘텐츠 박스 */
 .modal-content {
   background-color: #fff;
-  margin: 6% auto;
   padding: 20px;
   border-radius: 12px;
   width: 80%;
-  height: 70vh;
+  height: 71%;
   max-width: 600px;
-  position: relative;
+  position: fixed; /* fixed로 변경 */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   animation: fadeIn 0.3s ease-in-out;
 }
@@ -27,17 +29,15 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
 .modal-body img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
 }
 
@@ -46,6 +46,7 @@
   font-weight: bold;
   margin-bottom: 16px;
   text-align: center;
+  color: #888;
 }
 
 .modal-close {
