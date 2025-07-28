@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/modal.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -19,6 +20,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <script src="js/modal.js" defer></script>
   </head>
   <body>
     <div class="wrap">
@@ -225,12 +227,11 @@
           <h1>CONTENTS</h1>
           <div class="cards">
             <!-- 추가 카드도 같은 방식으로 추가 -->
-            
-            <a href="#" class="card">
-              <img src="images/contents/surf.jpg" alt="SURF_POSTER" />
+            <a href="#"  class="card">
+              <img src="images/contents/surf.jpg" alt="surf_POSTER" />
               <div class="background"></div>
               <div class="card-content">
-                <h3>SURF_POSTER</h3>
+                <h3>surf_POSTER</h3>
               </div>
             </a>
 
@@ -281,6 +282,7 @@
                 <h3>준비중</h3>
               </div>
             </a>
+
 
             <a href="#" class="card">
               <img src="images/commingsoon.jpg" alt="준비중" />
@@ -333,13 +335,17 @@
       </footer>
     </div>
     <!-- Modal -->
-<div id="modal" class="modal">
+     <div id="modal">
   <div class="modal-content">
-    <span class="close">&times;</span>
-    <img id="modal-img" src="" alt="modal image" />
-    <h3 id="modal-title"></h3>
+    <span class="modal-close">close</span>
+    <div class="modal-title">타이틀</div>
+    <div class="modal-body">
+      <img id="modal-img" src="" alt="모달 이미지" />
+    </div>
   </div>
 </div>
   </body>
 
 </html>
+
+
