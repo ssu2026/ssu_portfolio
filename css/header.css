@@ -115,7 +115,7 @@ nav {
   color: #00b436;
   font-weight: 400;
 }
-.navi > ul > li:hover > a {
+.menu > li:hover > a {
   background-color: #00b436;
   color: #fff;
   border-radius: 100px;
