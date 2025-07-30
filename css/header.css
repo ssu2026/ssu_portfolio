@@ -113,7 +113,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 150px;
-  height: 50px;
+  height: 40px;
   font-size: 20px;
   color: #00b436;
   font-weight: 400;
@@ -121,9 +121,6 @@ nav {
 
 .navi > ul > li:hover > a {
   background-color: #00b436;
-
   color: #fff;
-  border-radius: 150px;
-  justify-content: center;
-  align-items: center;
+  border-radius: 100px;
 }
