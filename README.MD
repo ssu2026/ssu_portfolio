@@ -20,11 +20,13 @@
     </div>
     <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
-    <div align= "center"> <a href="https://www.instagram.com/9926_ssu?igsh=MTZwdGc4aGxqaW93bQ=="
-                  target="_blank"> <img src="images/readme/instagram.svg"> </a>
-         <a href="mailto:yeona2026@gmail.com" target="_blank"> <img src="images/readme/gmail.svg"> </a>
-         <a href="https://dent-raja-62b.notion.site/2244fb43da9181c69694dda919eee957"
-                  target="_blank"> <img src="images/readme/notion.svg"> </a>
-          </div>  <br> 
+    <div align= "center">
+     <a href="https://www.instagram.com/9926_ssu?igsh=MTZwdGc4aGxqaW93bQ==" target="_blank">
+     <img src="images/readme/instagram.svg" style="width:30px; height:auto; margin: 0 10px;"> </a>
+     <a href="mailto:yeona2026@gmail.com" target="_blank">
+     <img src="images/readme/gmail.svg"> </a>
+     <a href="https://dent-raja-62b.notion.site/2244fb43da9181c69694dda919eee957" target="_blank">
+      <img src="images/readme/notion.svg"> </a>
+     </div>  <br> 
     <div align= "center">  </div> 
     </div>
