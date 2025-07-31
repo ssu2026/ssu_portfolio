@@ -19,7 +19,7 @@
           </div>
     </div>
     <div align= "center">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #eee;"> 🧑‍💻 Contact me </h2> <br> 
     <div align= "center">
      <a href="https://www.instagram.com/9926_ssu?igsh=MTZwdGc4aGxqaW93bQ==" target="_blank">
      <img src="images/readme/instagram.svg" style="width:40px; height:auto; padding-right:10px;"> </a>
