@@ -15,6 +15,7 @@ body {
   /* overflow-x: hidden; */
   background-color: #333;
   background-color: #fff9eb;
+  scroll-behavior: smooth;
 }
 
 ul,

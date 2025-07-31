@@ -93,8 +93,13 @@ nav {
 }
 
 .navi {
+  background-color: #fff9eb;
+  position: fixed;
   display: flex;
-  position: relative;
+  top: 50px;
+  /* width: 100%; */
+  z-index: 100;
+  padding: 10px 0;
 }
 
 .navi > ul {
@@ -112,9 +117,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 40px;
-  font-size: 20px;
+  width: 160px;
+  height: 45px;
+  font-size: 18px;
   color: #00b436;
   font-weight: 400;
 }
@@ -123,4 +128,6 @@ nav {
   background-color: #00b436;
   color: #fff;
   border-radius: 100px;
+  justify-content: center;
+  align-items: center;
 }

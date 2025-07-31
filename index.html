@@ -11,14 +11,8 @@
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/modal.css">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+
+    <script src="js/nav.js" defer></script>
     <script src="js/modal.js" defer></script>
   </head>
   <body>
@@ -28,9 +22,9 @@
           <nav>
             <div class="navi">
               <ul class="menu">
-                <li><a href="#">ABOUT ME</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">CARD NEWS</a></li>
+                <li><a href="#aboutme" data-target="aboutme">ABOUT ME</a></li>
+                <li><a href="#project" data-target="projects">PROJECTS</a></li>
+                <li><a href="#cardnew" data-target="cardnews">CARD NEWS</a></li>
               </ul>
             </div>
           </nav>
@@ -46,7 +40,7 @@
 
       <main>
         <!-- About me -->
-        <section class="aboutme">
+        <section id="aboutme" class="aboutme">
           <h1>ABOUT ME</h1>
           <div class="about">
             <div class="aboutleft">
@@ -138,7 +132,7 @@
         </section>
 
         <!-- Projects -->
-        <section class="project">
+        <section id="projects" class="project">
           <h1>PROJECTS</h1>
           <div class="slider">
             <div>
@@ -222,7 +216,7 @@
         </section>
 
         <!-- Contents -->
-        <section class="content">
+        <section id="cardnews" class="cardnew">
           <h1>CARD NEWS</h1>
           <div class="cards">
             <!-- 추가 카드도 같은 방식으로 추가 -->
@@ -309,7 +303,7 @@
                 <a href="tel:01099268485">Number</a>
                 <a href="https://github.com/ssu2026" target="_blank">Git Hub</a>
                 <a
-                  href="https://www.notion.so/2244fb43da9181c69694dda919eee957"
+                  href="https://dent-raja-62b.notion.site/2244fb43da9181c69694dda919eee957"
                   target="_blank"
                 >
                   Notion
