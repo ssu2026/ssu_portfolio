@@ -21,8 +21,9 @@
     <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
     <div align= "center"> <a href=> <img src="images/readme/instagram.svg"> </a>
-         <a href=mailto:> <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white&link=mailto:"> </a>
-         <a href=> <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white&link="> </a>
+         <a href=mailto:yeona2026@gmail.com> <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white&link=mailto:"> </a>
+         <a href="https://dent-raja-62b.notion.site/2244fb43da9181c69694dda919eee957"
+                  target="_blank"> <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white&link="> </a>
           </div>  <br> 
     <div align= "center">  </div> 
     </div>
