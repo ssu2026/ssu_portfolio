@@ -13,8 +13,8 @@ body {
   letter-spacing: -0.23px;
   text-size-adjust: 100%;
   /* overflow-x: hidden; */
-  background-color: #333;
-  background-color: #fff9eb;
+  /* background-color: #fff9eb; */
+  background-color: #111;
   scroll-behavior: smooth;
 }
 
@@ -25,8 +25,8 @@ li {
 
 a {
   display: block;
-  color: #fff;
-  color: #333;
+  color: #777;
+  color: #eee;
   text-decoration: none;
 }
 
@@ -41,6 +41,6 @@ img {
 
 p,
 span {
-  color: #fff;
-  color: #333;
+  color: #777;
+  color: #eee;
 }
