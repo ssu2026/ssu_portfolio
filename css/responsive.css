@@ -1,0 +1,94 @@
+/* ...existing code... */
+
+/* 모바일 기본 스타일 */
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.header,
+.about,
+.project,
+.cardnew,
+.finally {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 이미지와 카드 등은 100%로 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 그리드/플렉스 레이아웃 */
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutright,
+.aboutleft {
+  width: 100%;
+}
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+/* 프로젝트 슬라이더도 세로로 */
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 태블릿 이상 */
+@media (min-width: 768px) {
+  .about {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .aboutleft,
+  .aboutright {
+    width: 50%;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .slider {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+
+/* 데스크탑 */
+@media (min-width: 1200px) {
+  .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .slider {
+    gap: 32px;
+  }
+}
+
+/* ...existing code... */
